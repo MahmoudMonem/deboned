@@ -9,7 +9,7 @@
 @endsection
 
 
-@section('center')
+@section('content')
 
 <section style="height: 100vh;" class="contact-section d-flex align-items-center justify-content-center bg-light">
   <div class="form-wrapper text-center px-4">

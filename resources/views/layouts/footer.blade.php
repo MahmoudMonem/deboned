@@ -58,19 +58,19 @@
                     <div class="footer-contact">
                         <div class="contact-item">
                     
-    <a href="">
+    <a href="https://www.instagram.com/deboned.kw/?hl=en">
     <i class="fas fa-map-marker-alt"></i>    
     Kuwait
     </a><br>
     </div>
     <div class="contact-item">
-    <a href="">
+    <a href="https://www.instagram.com/deboned.kw/?hl=en">
     <i class="fas fa-map-marker-alt"></i>    
     Saudi Arabia
     </a><br>
     </div>
     <div class="contact-item">
-    <a href="">
+    <a href="https://www.instagram.com/deboned.kw/?hl=en">
     <i class="fas fa-map-marker-alt"></i>    
     Brahrain
     </a><br>

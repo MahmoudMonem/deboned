@@ -45,7 +45,7 @@
 <section class="auth-section mt-3">
   <div class="auth-card">
 
-    <h4 class="auth-title">Login to your SocialEats account</h4>
+    <h4 class="auth-title">Login to your Deboned account</h4>
 
     <form method="POST" action="{{ route('login') }}">
       @csrf
@@ -53,7 +53,7 @@
       <div class="mb-3">
         <label for="email" class="form-label">Email Address</label>
         <input id="email" type="email"
-               class="form-control @error('email') is-invalid @enderror"
+               class="form-control custom-input @error('email') is-invalid @enderror"
                name="email" value="{{ old('email') }}" required autofocus>
         @error('email') <span class="invalid-feedback">{{ $message }}</span> @enderror
       </div>
@@ -61,7 +61,7 @@
       <div class="mb-3">
         <label for="password" class="form-label">Password</label>
         <input id="password" type="password"
-               class="form-control @error('password') is-invalid @enderror"
+               class="form-control custom-input @error('password') is-invalid @enderror"
                name="password" required>
         @error('password') <span class="invalid-feedback">{{ $message }}</span> @enderror
       </div>
@@ -70,7 +70,7 @@
         <input class="form-check-input" type="checkbox" name="remember" id="remember"
                {{ old('remember') ? 'checked' : '' }}>
         <label style="color:black !important;" class="form-check-label" for="remember">
-          Remember Me
+          Remember Me<br>
         </label>
       </div>
 
@@ -79,7 +79,7 @@
       @if (Route::has('password.request'))
         <p class="text-center mt-3">
           <a style="color:black !important; font-size:1rem;" href="{{ route('password.request') }}">
-            Forgot Your Password?
+            <br>Forgot Your Password?
           </a>
         </p>
       @endif

@@ -1,3 +1,6 @@
+@php
+    $onHome = Request::is('/');
+@endphp
 <!-- Footer -->
 <footer class="footer">
     <div class="footer-wave">
@@ -30,25 +33,23 @@
                 <div class="footer-column">
                     <h4>Quick Links</h4>
                     <ul class="footer-links">
-
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#locations">Locations</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="{{ $onHome ? '#about' : '/#about' }}">About</a></li>
+        <li><a href="{{ $onHome ? '#menu' : '/#menu' }}">Menu</a></li>
+        <li><a href="{{ $onHome ? '#locations' : '/#locations' }}">Locations</a></li>
+        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Contact</a></li>
                 <li><a href="/careers">Careers</a></li>
 
                     </ul>
                 </div>
-                
-                <!-- Services -->
+    
                 <div class="footer-column">
                     <h4></h4>
                     <ul class="footer-links">
-                        <li><a href="{{ url('/catering') }}"></a></li>
-                        <li><a href="{{ url('/private-dining') }}"></a></li>
-                        <li><a href="{{ url('/events') }}"></a></li>
-                        <li><a href="{{ url('/gift-cards') }}"></a></li>
-                        <li><a href="{{ url('/loyalty') }}"></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
                     </ul>
                 </div>
                 
@@ -58,32 +59,26 @@
                     <div class="footer-contact">
                         <div class="contact-item">
                     
-    <a href="">
+    <a href="https://www.instagram.com/deboned.kw/?hl=en">
     <i class="fas fa-map-marker-alt"></i>    
     Kuwait
     </a><br>
     </div>
     <div class="contact-item">
-    <a href="">
+    <a href="https://www.instagram.com/deboned.kw/?hl=en">
     <i class="fas fa-map-marker-alt"></i>    
-    Qatar
+    Saudi Arabia
     </a><br>
     </div>
     <div class="contact-item">
-    <a href="">
+    <a href="https://www.instagram.com/deboned.kw/?hl=en">
     <i class="fas fa-map-marker-alt"></i>    
     Brahrain
     </a><br>
      </div>
-
                             
                         </div>
-                        <!-- 
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <a href="tel:+1234567890">+1 (234) 567-890</a>
-                        </div>
-                        -->
+
 <style>
 .footer-social a,
 .contact-item a {
@@ -92,17 +87,20 @@
 }
 </style>
 
+
 <div class="footer-social">
-  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://kw.linkedin.com/company/neesh-group" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+
+  <a href="https://www.instagram.com/deboned.kw/?hl=en" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
 </div>
 <br>
 <div class="contact-item">
-  <i class="fas fa-envelope"></i>
+<!--  <i class="fas fa-envelope"></i>
   <a href="mailto:info@deboned.com">info@deboned.com</a>
-</div>
+</div>-->
+
+
+                    </div>
 
 
                     </div>

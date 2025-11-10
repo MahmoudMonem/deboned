@@ -40,6 +40,8 @@
 
 
       <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+
+
     
     @yield('styles')
 </head>

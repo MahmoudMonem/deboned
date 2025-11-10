@@ -448,10 +448,10 @@
                             <div class="form-group">
                                 <select name="concept" class="form-control custom-input" required>
                                     <option value="" disabled selected>Select Location Interest</option>
-                                    <option value="downtown">Downtown Location</option>
-                                    <option value="waterfront">Waterfront Location</option>
-                                    <option value="suburban">Suburban Location</option>
-                                    <option value="other">Other</option>
+                                    <option value="kuwait">Kuwait</option>
+                                    <option value="Saudi Arabia">Saudi Arabia</option>
+                                    <option value="Bahrain">Bahrain</option>
+                              
                                 </select>
                             </div>
                             <div class="form-group">

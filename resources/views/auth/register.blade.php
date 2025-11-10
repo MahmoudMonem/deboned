@@ -1,4 +1,4 @@
-@extends ('layouts.app')
+@extends ('layouts.single-pages')
 
 @section('styles')
 <style>
@@ -47,7 +47,7 @@
 <section class="auth-section mt-3">
   <div class="auth-card">
 
-    <h4 class="auth-title">Create your SocialEats account</h4>
+    <h4 class="auth-title">Create your Deboned account</h4>
 
     <form method="POST" action="{{ route('register') }}">
       @csrf
@@ -55,7 +55,7 @@
       <div class="mb-3">
         <label for="name" class="form-label">Full Name</label>
         <input id="name" type="text" 
-               class="form-control @error('name') is-invalid @enderror" 
+               class="form-control custom-input @error('name') is-invalid @enderror" 
                name="name" value="{{ old('name') }}" required autofocus>
         @error('name') <span class="invalid-feedback">{{ $message }}</span> @enderror
       </div>
@@ -63,7 +63,7 @@
       <div class="mb-3">
         <label for="email" class="form-label">Email Address</label>
         <input id="email" type="email" 
-               class="form-control @error('email') is-invalid @enderror" 
+               class="form-control custom-input @error('email') is-invalid @enderror" 
                name="email" value="{{ old('email') }}" required>
         @error('email') <span class="invalid-feedback">{{ $message }}</span> @enderror
       </div>
@@ -71,21 +71,21 @@
       <div class="mb-3">
         <label for="password" class="form-label">Password</label>
         <input id="password" type="password" 
-               class="form-control @error('password') is-invalid @enderror" 
+               class="form-control custom-input @error('password') is-invalid @enderror" 
                name="password" required>
         @error('password') <span class="invalid-feedback">{{ $message }}</span> @enderror
       </div>
 
       <div class="mb-3">
         <label for="password-confirm" class="form-label">Confirm Password</label>
-        <input id="password-confirm" type="password" class="form-control" 
+        <input id="password-confirm" type="password" class="form-control custom-input" 
                name="password_confirmation" required>
       </div>
 
       <button type="submit" class="btn auth-btn">Register</button>
 
       <p style="color:black !important; font-size:1rem;" class="text-center mt-3">
-        Already have an account? 
+       <br> Already have an account? 
         <a style="color:black !important;" href="{{ route('login') }}">Login</a>
       </p>
     </form>

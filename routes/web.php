@@ -49,6 +49,9 @@ Route::get('/privacy', [PagesController::class, 'privacy'])->name('privacy');
 Route::get('/terms', [PagesController::class, 'terms'])->name('terms');
 Route::get('/sitemap', [PagesController::class, 'sitemap'])->name('sitemap');
 
+Route::get('/success-message', [PagesController::class, 'success-message'])->name('successMessage');
+
+
 
 // Add these routes for the forms
 Route::post('/franchise', [PagesController::class, 'storeFranchise'])->name('franchise.submit');

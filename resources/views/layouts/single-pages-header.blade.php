@@ -1,3 +1,7 @@
+@php
+    $onHome = Request::is('/');
+@endphp
+
 <!-- Navigation Header -->
 <nav class="navbar sticky-top" id="navbar">
     <div class="navbar-container">
@@ -6,10 +10,10 @@
         </a>
         
         <ul class="navbar-menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#locations">Locations</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="{{ $onHome ? '#about' : '/#about' }}">About</a></li>
+        <li><a href="{{ $onHome ? '#menu' : '/#menu' }}">Menu</a></li>
+        <li><a href="{{ $onHome ? '#locations' : '/#locations' }}">Locations</a></li>
+        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Contact</a></li>
         </ul>
         <!--
         <a href="{{ url('/reservations') }}" class="navbar-cta">Book a Table</a>
@@ -26,10 +30,10 @@
 <div class="mobile-menu" id="mobileMenu">
     <ul>
 
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#locations">Locations</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="{{ $onHome ? '#about' : '/#about' }}">About</a></li>
+        <li><a href="{{ $onHome ? '#menu' : '/#menu' }}">Menu</a></li>
+        <li><a href="{{ $onHome ? '#locations' : '/#locations' }}">Locations</a></li>
+        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Contact</a></li>
 
     </ul>
 </div>

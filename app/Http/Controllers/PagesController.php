@@ -260,6 +260,12 @@ class PagesController extends Controller
         return view('pages.sitemap');
     }
 
+        public function successmessage()
+    {
+        return view('success-message');
+    }
+
+
 
     // Add these methods to your existing PagesController
 
@@ -279,7 +285,7 @@ public function storeFranchise(Request $request)
         'updated_at' => now()
     ]);
 
-    return redirect()->back()->with('success', 'Thank you for your franchise inquiry. We will contact you soon!');
+   return view('success-message');
 }
 
 
