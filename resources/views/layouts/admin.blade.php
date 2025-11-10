@@ -1,0 +1,9 @@
+
+
+
+@yield('body')
+
+@yield('scripts')
+
+
+
