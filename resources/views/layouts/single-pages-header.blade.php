@@ -13,7 +13,7 @@
         <li><a href="{{ $onHome ? '#about' : '/#about' }}">About</a></li>
         <li><a href="{{ $onHome ? '#menu' : '/#menu' }}">Menu</a></li>
         <li><a href="{{ $onHome ? '#locations' : '/#locations' }}">Locations</a></li>
-        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Contact</a></li>
+        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Franchise</a></li>
         </ul>
         <!--
         <a href="{{ url('/reservations') }}" class="navbar-cta">Book a Table</a>
@@ -33,7 +33,7 @@
         <li><a href="{{ $onHome ? '#about' : '/#about' }}">About</a></li>
         <li><a href="{{ $onHome ? '#menu' : '/#menu' }}">Menu</a></li>
         <li><a href="{{ $onHome ? '#locations' : '/#locations' }}">Locations</a></li>
-        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Contact</a></li>
+        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Franchise</a></li>
            <li><a href="{{ $onHome ? '#contact' : '/careers' }}">Careers</a></li>
 
     </ul>

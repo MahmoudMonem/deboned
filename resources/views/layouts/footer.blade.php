@@ -33,7 +33,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#locations">Locations</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Franchise</a></li>
                 <li><a href="/careers">Careers</a></li>
 
                     </ul>
@@ -57,19 +57,19 @@
                     <div class="footer-contact">
                         <div class="contact-item">
                     
-    <a href="https://www.instagram.com/deboned.kw/?hl=en">
+     <a href="https://www.instagram.com/deboned.kw/?hl=en">
     <i class="fab fa-instagram"></i>    
     Kuwait
     </a><br>
     </div>
     <div class="contact-item">
-    <a href="https://www.instagram.com/deboned.kw/?hl=en">
+    <a href="https://www.instagram.com/deboned.ksa/?hl=en">
     <i class="fab fa-instagram"></i>    
     Saudi Arabia
     </a><br>
     </div>
     <div class="contact-item">
-    <a href="https://www.instagram.com/deboned.kw/?hl=en">
+    <a href="https://www.instagram.com/deboned.bh/?hl=en">
     <i class="fab fa-instagram"></i>    
     Brahrain
     </a><br>

@@ -125,8 +125,9 @@ Founded in 2021 in Kuwait, Deboned is redefining what comfort food means in toda
         <!-- First Row -->
         <div class="align-items-center mb-5">
             <div class=" mb-4 mb-lg-0">
-                <h2 class="mission-title">LOCALLY ROOTED,<br>GLOBALLY BUILT</h2><br>
-                
+                <h2 class="mission-title section-label">LOCALLY ROOTED,</h2><br>
+                                <h2 class="mission-title">GLOBALLY BUILT</h2><br>
+
                 <p class="col-6">
                     Proudly local, Deboned is leading a new era of QSR dining, redefining comfort foods with a cleaner perspective and making high-quality boneless chicken fresh and accessible across the Gulf, Europe, and beyond.<br><br>
                 </p>
@@ -153,7 +154,7 @@ Founded in 2021 in Kuwait, Deboned is redefining what comfort food means in toda
                         </div>
                     </div>
                     <div class="vision-content">
-                        <p>To become the most trusted clean comfort food franchise in the GCC, setting a new benchmark for modern QSR dining combining speed, freshness, and innovation.</p>
+                        <p>To become the most trusted clean comfort food franchise in the world, setting a new benchmark for modern QSR dining combining speed, freshness, and innovation.</p>
                         <div class="vision-highlight">
                             <span>WE DON'T TRY TO FIT IN WE STAND OUT</span>
                         </div>
@@ -381,7 +382,43 @@ hustle.</p>
         <div class="menu-content">
             <div id="signature-wraps" class="menu-tab-content active">
                 <div class="menu-grid">
+ 
+                                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="{{ asset('images/menu/half-chicken.jpg') }}" alt="Buffalo Tawouk Wrap">
+                            <div class="menu-card-overlay">
+                                <div class="menu-tag spicy">
+                                    <i class="fas fa-fire"></i>
+                                    <span>Spicy</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Half Chicken Rice Dish</h3>
+                            <p>Our special steamed seasoned rice, topped with half Deboned chicken, serve with creamy sauce.</p>
+       
+                        </div>
+                    </div>
+                    
                     <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="{{ asset('images/menu/full-chicken.jpg') }}" alt="Garlic Churri Tawouk Wrap">
+                            <div class="menu-card-overlay">
+                                <div class="menu-tag fan-favorite">
+                                    <i class="fas fa-heart"></i>
+                                    <span>Fan Favorite</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Deboned Whole Chicken</h3>
+                            <p>Charcoal grilled boneless Whole chicken with Sweet Chilli flavor,. Served with baked Potato, Sweet Chilli sauce and garlic sauce with 2 fresh bread.</p>
+                
+                        </div>
+                    </div>
+                    
+
+                                       <div class="menu-card">
                         <div class="menu-card-image">
                             <img src="{{ asset('images/menu/tawouk-wrap.jpg') }}" alt="Classic Tawouk Wrap">
                             <div class="menu-card-overlay">
@@ -397,41 +434,6 @@ hustle.</p>
                           
                         </div>
                     </div>
-                    
-                    <div class="menu-card">
-                        <div class="menu-card-image">
-                            <img src="{{ asset('images/menu/full-chicken.jpg') }}" alt="Garlic Churri Tawouk Wrap">
-                            <div class="menu-card-overlay">
-                                <div class="menu-tag fan-favorite">
-                                    <i class="fas fa-heart"></i>
-                                    <span>Fan Favorite</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu-card-content">
-                            <h3>Deboned Whole Chicken Sweet Chilli</h3>
-                            <p>Charcoal grilled boneless Whole chicken with Sweet Chilli flavor,. Served with baked Potato, Sweet Chilli sauce and garlic sauce with 2 fresh bread.</p>
-                
-                        </div>
-                    </div>
-                    
-                    <div class="menu-card">
-                        <div class="menu-card-image">
-                            <img src="{{ asset('images/menu/chicken-rice.jpg') }}" alt="Buffalo Tawouk Wrap">
-                            <div class="menu-card-overlay">
-                                <div class="menu-tag spicy">
-                                    <i class="fas fa-fire"></i>
-                                    <span>Spicy</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="menu-card-content">
-                            <h3>Whole Chicken Rice Dish Sweet Chilli</h3>
-                            <p>Our special steamed seasoned rice, topped with whole Deboned chicken, and Sweet Chilli sauce.</p>
-       
-                        </div>
-                    </div>
-                    
                     <div class="menu-card">
                         <div class="menu-card-image">
                             <img src="{{ asset('images/menu/bucket.jpg') }}" alt="Muhammara Tawouk Wrap">
@@ -443,7 +445,7 @@ hustle.</p>
                             </div>
                         </div>
                         <div class="menu-card-content">
-                            <h3>Deboned Bucket Sweet Chilli</h3>
+                            <h3>Deboned Bucket</h3>
                             <p>12-Quarter pieces of Deboned loumi chicken served with 8 pieces of fresh bread.</p>
 
                         </div>
@@ -470,14 +472,18 @@ hustle.</p>
     </div>
     </section> -->
 <!-- Contact Forms Section -->
-<section id="contact" class="contact-forms-section">
-    <div class="container">
+<br><br>
         <div class="section-header text-center">
-      <div class="">
+        <div class="">
         <div class=""></div>
         <img class="ourstory-image" src="{{ asset('images/letsconnect.jpg') }}" alt="Deboned Story">
-    </div>
         </div>
+        </div>
+
+
+<section id="contact" class="contact-forms-section">
+    <div class="container">
+
 
        
         <!-- Tab Content -->

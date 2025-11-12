@@ -36,7 +36,7 @@
         <li><a href="{{ $onHome ? '#about' : '/#about' }}">About</a></li>
         <li><a href="{{ $onHome ? '#menu' : '/#menu' }}">Menu</a></li>
         <li><a href="{{ $onHome ? '#locations' : '/#locations' }}">Locations</a></li>
-        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Contact</a></li>
+        <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Franchise</a></li>
                 <li><a href="/careers">Careers</a></li>
 
                     </ul>
@@ -65,13 +65,13 @@
     </a><br>
     </div>
     <div class="contact-item">
-    <a href="https://www.instagram.com/deboned.kw/?hl=en">
+    <a href="https://www.instagram.com/deboned.ksa/?hl=en">
     <i class="fab fa-instagram"></i>    
     Saudi Arabia
     </a><br>
     </div>
     <div class="contact-item">
-    <a href="https://www.instagram.com/deboned.kw/?hl=en">
+    <a href="https://www.instagram.com/deboned.bh/?hl=en">
     <i class="fab fa-instagram"></i>    
     Brahrain
     </a><br>

@@ -9,7 +9,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#locations">Locations</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Franchise</a></li>
         </ul>
         <!--
         <a href="{{ url('/reservations') }}" class="navbar-cta">Book a Table</a>
@@ -29,7 +29,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#locations">Locations</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Franchise</a></li>
     <li><a href="/careers">Careers</a></li>
     </ul>
 </div>
