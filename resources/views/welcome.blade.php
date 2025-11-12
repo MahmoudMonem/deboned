@@ -30,8 +30,8 @@
     
     <!-- Image Version -->
     <div class="hero-background">
-        <div class="hero-overlay"></div>
-        <img class="hero-image" src="{{ asset('images/cover-photo.jpg') }}" alt="Deboned Restaurant">
+         <!--<div class="hero-overlay"></div>-->
+        <img class="hero-image" src="{{ asset('images/coverhero.jpg') }}" alt="Deboned Restaurant">
     </div>
     
     <div class="hero-content">
@@ -62,11 +62,10 @@
             <div class="about-content">
                 <div class="section-header">
                     <span class="section-label">Since 2021</span>
-                    <h2 class="section-title">Chicken from a New Perspective</h2>
+                    <h2 class="section-title">Who we are!</h2>
                 </div>
                 <p class="about-text">
-                    Founded in 2021 in Kuwait, Deboned is redefining what comfort food means in today's fast world. Our concept transforms fresh, boneless chicken into a clean, premium quick-service experience — where flavor meets efficiency, and quality never takes a shortcut.
-                </p>
+Founded in 2021 in Kuwait, Deboned is redefining what comfort food means in today’s fast world. Our concept transforms fresh, boneless chicken into a clean, premium quick-service experience — where flavor meets efficiency, and quality never takes a shortcut. With 11 branches in Kuwait, 3 in Bahrain, and 3 in Saudi Arabia (Khobar & Dammam), Deboned has grown from a local favorite into a regional QSR brand positioned for international expansion under Neesh Group.                </p>
                 <p class="about-text">
                     With 11 branches in Kuwait, 3 in Bahrain, and 3 in Saudi Arabia, Deboned has grown from a local favorite into a regional QSR brand positioned for international expansion under Neesh Group.
                 </p>
@@ -85,8 +84,8 @@
                             <i class="fas fa-drumstick-bite"></i>
                         </div>
                         <div class="feature-content">
-                            <h4>Fresh Daily</h4>
-                            <p>Never frozen, premium quality chicken</p>
+                            <h4>Simple, Clean, and Fresh!</h4>
+                            <p>Premium Quality Chicken</p>
                         </div>
                     </div>
                 </div>
@@ -110,8 +109,36 @@
     </div>
 </section>
 
+
+<section class="mission-vision-section">
+    <!-- Image Version -->
+    <div class="">
+        <div class=""></div>
+        <img class="ourstory-image" src="{{ asset('images/our story.jpg') }}" alt="Deboned Story">
+    </div>
+    </section>
+
+
+
+   
+    <div class="container d-flex justify-content-center text-center col-12">
+        <!-- First Row -->
+        <div class="align-items-center mb-5">
+            <div class=" mb-4 mb-lg-0">
+                <h2 class="mission-title">LOCALLY ROOTED,<br>GLOBALLY BUILT</h2><br>
+                
+                <p class="col-6">
+                    Proudly local, Deboned is leading a new era of QSR dining, redefining comfort foods with a cleaner perspective and making high-quality boneless chicken fresh and accessible across the Gulf, Europe, and beyond.<br><br>
+                </p>
+            </div>
+ 
+        </div>
+
+    </div>
 <!-- Mission & Vision Section - Compact Inline Layout -->
 <section class="mission-vision-section">
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -122,13 +149,13 @@
                         </div>
                         <div class="header-text">
                             <span class="section-label">Our Vision</span>
-                            <h3>Setting New Standards</h3>
+                            <h3>A NEW BENCHMARK FOR DINING</h3>
                         </div>
                     </div>
                     <div class="vision-content">
-                        <p>To become the most trusted clean comfort food franchise in the GCC, setting a new benchmark for modern QSR dining — where culinary excellence meets efficiency, freshness embraces innovation, and every meal tells our story of quality.</p>
+                        <p>To become the most trusted clean comfort food franchise in the GCC, setting a new benchmark for modern QSR dining combining speed, freshness, and innovation.</p>
                         <div class="vision-highlight">
-                            <span>Reimagining Fast Food</span>
+                            <span>WE DON'T TRY TO FIT IN WE STAND OUT</span>
                         </div>
                     </div>
                 </div>
@@ -141,13 +168,15 @@
                         </div>
                         <div class="header-text">
                             <span class="section-label">Our Mission</span>
-                            <h3>Empowering Excellence</h3>
+                            <h3>REIMAGINING CHICKEN</h3>
+                  
+                          
                         </div>
                     </div>
                     <div class="mission-content">
-                        <p>To expand a proven business model that seamlessly blends operational excellence with culinary integrity and creativity — empowering entrepreneurs to deliver Deboned's exceptional quality and service standards to discerning customers anywhere in the world.</p>
+                        <p>To further expand and strengthen a proven business model that seamlessly blends operational excellence with culinary integrity and creativity empowering entrepreneurs to replicate and deliver Deboned's exceptional quality, signature flavors, and service standards in markets across the globe.</p>
                         <div class="mission-highlight">
-                            <span>Global Quality, Local Flavor</span>
+                            <span>IT ALL STARTED WITH ONE CHICKEN</span>
                         </div>
                     </div>
                 </div>
@@ -158,6 +187,7 @@
         </div>
 
 </section>
+
 
 <!-- Quality & Operations Section - Light Version with Brand Colors -->
 <section class="experience-section">
@@ -179,9 +209,12 @@
                     </div>
                     <div class="quality-content">
                         <h3>Central Kitchen Excellence</h3>
-                        <p>Every product is freshly prepared and dispatched daily from our state-of-the-art central kitchen, ensuring perfect consistency across all branches</p>
+                        <p>Every meal begins in our Central Kitchen. From
+prep to packing, every step is done in-house under
+one roof. This keeps things clean, consistent, and
+always fresh.</p>
                         <div class="quality-metric">
-                            <span>100% Fresh Daily</span>
+                            <span>WHERE CLEAN COMES TO LIFE</span>
                         </div>
                     </div>
                 </div>
@@ -191,10 +224,13 @@
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <div class="quality-content">
-                        <h3>Uncompromising Standards</h3>
-                        <p>We maintain complete oversight of our production cycle from marination to packaging, with multiple quality checkpoints along the way</p>
+                        <h3>QUALITY STARTS AT THE SOURCE</h3>
+                        <p>Deboned partners exclusively with top-tier chicken
+sources, using only fresh, premium, never-frozen
+ingredients. Our Central Kitchen oversees the full
+production cycle.</p>
                         <div class="quality-metric">
-                            <span>5-Stage Quality Control</span>
+                            <span>SIMPLE, CLEAN, AND FRESH</span>
                         </div>
                     </div>
                 </div>
@@ -205,7 +241,10 @@
                     </div>
                     <div class="quality-content">
                         <h3>Franchise-Ready Systems</h3>
-                        <p>Our comprehensive end-to-end systems cover everything from production to training and operational support, ensuring success at every location</p>
+                        <p>Strong track record across Kuwait, Bahrain, and Saudi Arabia.
+End-to-end in-house systems for production, training, and support.
+Distinctive identity and clean QSR positioning.
+</p>
                         <div class="quality-metric">
                             <span>Proven in 3 Countries</span>
                         </div>
@@ -214,13 +253,17 @@
                 
                 <div class="quality-item">
                     <div class="quality-icon">
-                        <i class="fas fa-chart-line"></i>
+                        <i class="fas fa-users"></i>
                     </div>
                     <div class="quality-content">
-                        <h3>Strategic Growth</h3>
-                        <p>Our data-driven expansion strategy has created a strong track record of success, with each new location building on our proven model</p>
+                        <h3>Community and Events</h3>
+                        <p>We show up where it matters. Deboned
+proudly supports sports events, tournaments,
+and active lifestyles with food that fuels both
+energy and community. We are here for the
+hustle.</p>
                         <div class="quality-metric">
-                            <span>17+ Successful Locations</span>
+                            <span>ROOTED IN THE GAME</span>
                         </div>
                     </div>
                 </div>
@@ -280,7 +323,7 @@
         </div>
 
       <!-- Saudi Arabia Pin -->
-      <div class="map-pin" style="top: 80%; left: 46%;">
+      <div class="map-pin" style="top: 85%; left: 46%;">
         <div class="pin-dot"></div>
       </div>
 
@@ -413,17 +456,27 @@
         </div>
         
         <div class="text-center menu-footer">
-            <a href="https://www.debonedkwt.com/" class="btn btn-secondary">Order Now</a><br><br>
+            <a href="https://www.debonedkwt.com/" class="btn btn-secondary">View Menu</a><br><br>
         </div>
     </div>
 </section>
 
+
+    <!--   <section class="mission-vision-section">
+
+    <div class="">
+        <div class=""></div>
+        <img class="ourstory-image" src="{{ asset('images/franchise-advantage.jpg') }}" alt="Deboned Story">
+    </div>
+    </section> -->
 <!-- Contact Forms Section -->
 <section id="contact" class="contact-forms-section">
     <div class="container">
         <div class="section-header text-center">
-            <span class="section-label">Get in Touch</span>
-            <h2 class="section-title">Let's Connect</h2>
+      <div class="">
+        <div class=""></div>
+        <img class="ourstory-image" src="{{ asset('images/letsconnect.jpg') }}" alt="Deboned Story">
+    </div>
         </div>
 
        
@@ -447,11 +500,7 @@
                             </div>
                             <div class="form-group">
                                 <select name="concept" class="form-control custom-input" required>
-                                    <option value="" disabled selected>Select Location Interest</option>
-                                    <option value="kuwait">Kuwait</option>
-                                    <option value="Saudi Arabia">Saudi Arabia</option>
-                                    <option value="Bahrain">Bahrain</option>
-                              
+                                @include('includes.countries')
                                 </select>
                             </div>
                             <div class="form-group">

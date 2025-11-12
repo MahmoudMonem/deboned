@@ -34,6 +34,7 @@
         <li><a href="{{ $onHome ? '#menu' : '/#menu' }}">Menu</a></li>
         <li><a href="{{ $onHome ? '#locations' : '/#locations' }}">Locations</a></li>
         <li><a href="{{ $onHome ? '#contact' : '/#contact' }}">Contact</a></li>
+           <li><a href="{{ $onHome ? '#contact' : '/careers' }}">Careers</a></li>
 
     </ul>
 </div>

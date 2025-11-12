@@ -17,12 +17,11 @@
             <div class="footer-grid">
                 <!-- Brand Column -->
                 <div class="footer-column footer-brand">
-                    <h3 class="footer-logo">Deboned</h3>
-                    <p class="footer-tagline">Premium Culinary Excellence</p>
-                    <p class="footer-description">
-                        Experience the art of fine dining with our innovative cuisine, 
-                        exceptional service, and unforgettable ambiance.
-                    </p>
+        <a href="{{ url('/') }}" class="navbar-brand">
+          <img src="{{ asset('images/logos/deboned-logo-blue.png') }}" alt="Deboned" class="header-brand-logo">
+        </a><br>
+      
+        <span class="section-label">Simple, clean , and fresh</span>
 
                 </div>
                 
@@ -59,19 +58,19 @@
                         <div class="contact-item">
                     
     <a href="https://www.instagram.com/deboned.kw/?hl=en">
-    <i class="fas fa-map-marker-alt"></i>    
+    <i class="fab fa-instagram"></i>    
     Kuwait
     </a><br>
     </div>
     <div class="contact-item">
     <a href="https://www.instagram.com/deboned.kw/?hl=en">
-    <i class="fas fa-map-marker-alt"></i>    
+    <i class="fab fa-instagram"></i>    
     Saudi Arabia
     </a><br>
     </div>
     <div class="contact-item">
     <a href="https://www.instagram.com/deboned.kw/?hl=en">
-    <i class="fas fa-map-marker-alt"></i>    
+    <i class="fab fa-instagram"></i>    
     Brahrain
     </a><br>
      </div>
@@ -95,7 +94,6 @@
 <div class="footer-social">
   <a href="https://kw.linkedin.com/company/neesh-group" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
 
-  <a href="https://www.instagram.com/deboned.kw/?hl=en" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
 </div>
 <br>
 <div class="contact-item">
@@ -138,3 +136,4 @@
         </div>
     </div>
 </footer>
+

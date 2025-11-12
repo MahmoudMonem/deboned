@@ -30,6 +30,7 @@
         <li><a href="#menu">Menu</a></li>
         <li><a href="#locations">Locations</a></li>
         <li><a href="#contact">Contact</a></li>
-
+    <li><a href="/careers">Careers</a></li>
     </ul>
 </div>
+
